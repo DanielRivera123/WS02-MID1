@@ -1,0 +1,122 @@
+S:root{
+    -black:black;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+  
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+section{
+    padding: 5rem 9%;
+}
+.heading{
+    text-align: center;
+    font-size: 7rem;
+    color: rgb(51, 51, 51);
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(88, 76, 84, 0);
+}
+.heading span{
+    color: rgb(255, 0, 0);
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(bgasta.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 15rem;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.home .content span{
+    font-size: 3.5rem;
+    color: #c4c4cf;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.about{
+    background-color: black;
+
+}
+.about .row .video-container h3{
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 5rem;
+    background: #ffffff;
+    width: 100%;
+    padding: .5rem .5rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+.about .row .content{
+    flex:1 1 40rem;
+}
+.about .row .content h3{
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+}
+.about .row .content p{
+    font-size: 3rem;
+    text-align: justify;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: none;
+    text-indent: 5rem;
+}
+.about .row .content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.friend{
+    background-color: black;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: #999;
+    }
+    a{
+    color: red;
+    text-decoration: none;
+    }
+    
+    footer{
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #E6E6E6;
+    }
+    footer ul{
+    text-align: center;
+    }
+    footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+    }
